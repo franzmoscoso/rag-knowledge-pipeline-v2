@@ -1,0 +1,24 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Variables de entorno locales
+.env
+
+# Base de datos vectorial y datos procesados (se regeneran con `ingest`)
+data/chroma_db/
+data/processed/*
+!data/processed/.gitkeep
+
+# Trabajo de tesis (plan, auditoría, documentación del informe, capturas): no se sube
+ai-desktop/
+
+# Sistema
+.DS_Store
