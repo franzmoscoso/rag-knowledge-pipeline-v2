@@ -22,3 +22,6 @@ ai-desktop/
 
 # Sistema
 .DS_Store
+
+evidencias/
+data/raw/dataflow.pdf

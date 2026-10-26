@@ -1,0 +1,14 @@
+[
+  {
+    "id": "P01",
+    "question": "¿Cómo se diferencian el tiempo de evento y el tiempo de procesamiento en el modelo Dataflow?",
+    "expected_source": "dataflow.pdf",
+    "expected_terms": ["event time", "processing time"]
+  },
+  {
+    "id": "P02",
+    "question": "¿Cómo se usan los watermarks y los triggers para procesar datos tardíos?",
+    "expected_source": "dataflow.pdf",
+    "expected_terms": ["watermark", "trigger"]
+  }
+]
